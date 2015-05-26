@@ -3,6 +3,7 @@
     "description": "Laravel 5 Multitenancy Middleware",
     "require": {
         "divsmith/tenantable": "dev-master",
+        "illuminate/contracts": "^5.0",
         "illuminate/support": "^5.0"
     },
     "license": "MIT",
