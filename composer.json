@@ -12,5 +12,10 @@
             "name": "Parker Smith",
             "email": "parker@parkersmith.us"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {
+            "Apartment\\": "src"
+        }
+    }
 }
