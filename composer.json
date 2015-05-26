@@ -1,0 +1,15 @@
+{
+    "name": "divsmith/apartment",
+    "description": "Laravel 5 Multitenancy Middleware",
+    "require": {
+        "divsmith/tenantable": "dev-master",
+        "illuminate/support": "^5.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Parker Smith",
+            "email": "parker@parkersmith.us"
+        }
+    ]
+}
