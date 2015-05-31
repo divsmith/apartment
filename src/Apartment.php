@@ -31,7 +31,7 @@ class Apartment {
      */
     public function handle($request, Closure $next)
     {
-        if( $this->tenantable->tenantHasUser())
+        if( $this->tenantable->userBelongsToTenant())
         {
             return $next($request);
         }
