@@ -33,8 +33,6 @@ class Apartment {
     {
         if( $this->tenantable->tenantHasUser())
         {
-            $request->tenantId = $this->tenantable->getTenantId();
-
             return $next($request);
         }
 
